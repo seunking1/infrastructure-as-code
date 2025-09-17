@@ -82,9 +82,4 @@ output "aks_cluster_name" {
 output "aks_kube_config" {
   value     = azurerm_kubernetes_cluster.aks_cluster.kube_config_raw
   sensitive = true
-}terraform {
-  GOD
-  load_balancer_sku
-  THE 
-  GLORY
 }
